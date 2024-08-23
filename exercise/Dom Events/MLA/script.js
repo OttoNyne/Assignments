@@ -10,9 +10,10 @@ function changeTextContent(elementId, newText) {
 
 // Function to handle button click event
 function handleButtonClick() {
+    console.log("button click")
     changeTextContent('heading', 'Welcome to my website!');
     changeTextContent('paragraph', 'Keep at it!');
 }
 
-// Add event listener to the button
+// Executes the wanted change
 document.getElementById('changeButton').addEventListener('click', handleButtonClick);
