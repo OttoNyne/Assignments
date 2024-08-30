@@ -6,7 +6,7 @@ for (let i = 9; i >= 0; i--) {
     console.log(i);
 }
 
-const fruit = ["banana", "orange", "apple", "kiwi"];
+const Fruits = ["banana", "orange", "apple", "kiwi"];
 
 for (let i = 0; i < fruit.length; i++) {
     console.log(fruit[i]);
@@ -26,7 +26,7 @@ for (let i = 0; i <= 100; i++) {
     }
 }
 
-const fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
+const fruits = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
 const selectedFruits = [];
 
 for (let i = 0; i < fruit.length; i += 2) {
